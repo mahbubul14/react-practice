@@ -56,6 +56,13 @@
   text-align: left;
 }
 
+.h2:hover {
+  transition-duration: 2s;
+  transition-property: background-color;
+  background-color: #ff6b00;
+  color: white;
+}
+
 .h3 {
   margin-top: 0;
   color: #fff5e1;
@@ -207,16 +214,14 @@
 }
 
 .project-card {
-  background-image: url("./images/professional\ pic.png");
+  background-image: url("./images/professional\pic.png");
   background-repeat: no-repeat;
   opacity: 10;
   background-size: cover;
-  height: 25rem;
-  margin-top:5rem;
 }
 
 .project-title {
-  font-family: 'Crete Round', serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -246,7 +251,6 @@
 
 .text-container {
   padding: 20px 10px;
-  margin-top: 6.2em;
 }
 
 .card-button {
@@ -358,11 +362,7 @@
 }
 
 .intro-text {
-  position: static;
-  width: 290px;
-  height: 200px;
-  left: 0;
-  top: 0;
+  width: 250px;
   font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -370,7 +370,8 @@
   line-height: 39px;
   text-align: center;
   color: #172b4d;
-  margin: 24px 0;
+  margin-left: 5rem;
+  margin-top: 30px;
 }
 
 .form {
@@ -379,11 +380,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  grid-row-gap: 10px;
   padding: 0;
-  position: static;
-  width: 270px;
-  height: 194px;
   margin: 58px 0;
 }
 
@@ -391,10 +388,10 @@
   background: #ff6b00;
   border: none;
   color: #fff;
-  width: 40%;
-  padding: 12px 0;
+  width: 131px;
+  padding: 12px;
   font-size: 15px;
-  margin: 10px 90px;
+  margin: 10px 1px;
 }
 
 .get-button:hover {
@@ -415,8 +412,6 @@
   padding-top: 10px;
   max-width: 200px;
   margin: 70px 0 110px;
-
-  /* padding: 10px 0 0 50px; */
 }
 
 .social-logos {
@@ -427,15 +422,25 @@
 }
 
 #fname,
-#mail {
+#email {
   border-bottom: 1px solid #dbdbd7;
-  width: 227px;
   border-right-width: 0;
   border-top-width: 0;
   border-left-width: 0;
-  padding: 15px 1px;
+  padding: 15px 0 15px 15px;
+  margin-top: 12px;
+  width: 327px;
 }
 
-textarea {
-  height: 127px;
+.textarea {
+  width: 327px;
+  height: 114px;
+  background-color: #fbf8f7;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  padding-top: 12px;
+  font-family: 'inter', sans-serif;
+  padding-left: 12px;
+  margin-top: 20px;
 }
